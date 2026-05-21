@@ -2,7 +2,7 @@
   <header class="app-header">
     <div class="header-left">
       <div class="logo">
-        <img src="/b1fdfdfb.DczOQaec.png" alt="OMG Logo" class="logo-image" />
+        <img src="/b1fdfdfb.DczOQaec.png" alt="TTMG Logo" class="logo-image" />
       </div>
     </div>
     <div class="header-right">

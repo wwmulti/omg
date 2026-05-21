@@ -1,7 +1,7 @@
 <template>
   <nav class="app-sidebar">
     <div class="sidebar-logo">
-      <img src="/b1fdfdfb.DczOQaec.png" alt="OMG Logo" class="logo-image" />
+      <img src="/b1fdfdfb.DczOQaec.png" alt="TTMG Logo" class="logo-image" />
     </div>
     <div 
       v-for="item in categoryStore.categoryTabs" 
