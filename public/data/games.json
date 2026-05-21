@@ -1,0 +1,492 @@
+{
+  "slot": {
+    "pg": [
+      {
+        "name": "Piggy Gold",
+        "game_code": 39
+      },
+      {
+        "name": "Jungle Delight",
+        "game_code": 40
+      },
+      {
+        "name": "Ganesha Gold",
+        "game_code": 42
+      },
+      {
+        "name": "Double Fortune",
+        "game_code": 48
+      },
+      {
+        "name": "Dragon Tiger Luck",
+        "game_code": 63
+      },
+      {
+        "name": "Fortune Mouse",
+        "game_code": 68
+      },
+      {
+        "name": "Bikini Paradise",
+        "game_code": 69
+      },
+      {
+        "name": "Mahjong Ways 2",
+        "game_code": 74
+      },
+      {
+        "name": "Circus Delight",
+        "game_code": 80
+      },
+      {
+        "name": "Fortune Ox",
+        "game_code": 98
+      },
+      {
+        "name": "Wild Bandito",
+        "game_code": 104
+      },
+      {
+        "name": "Buffalo Win",
+        "game_code": 108
+      },
+      {
+        "name": "Fortune Tiger",
+        "game_code": 126
+      },
+      {
+        "name": "Lucky Piggy",
+        "game_code": 130
+      },
+      {
+        "name": "Labubu",
+        "game_code": "labubu_1980"
+      },
+      {
+        "name": "Doraemon Christmas",
+        "game_code": "doraemon_1990"
+      },
+      {
+        "name": "Fortune Tiger Fofo",
+        "game_code": "tigerfofo_1995"
+      },
+      {
+        "name": "Fortune Dragon Fofo",
+        "game_code": "dragonfofo_1996"
+      },
+      {
+        "name": "Fortune Tiger 3",
+        "game_code": "tigerv3_1997"
+      },
+      {
+        "name": "Pinata Wins",
+        "game_code": 1492288
+      },
+      {
+        "name": "Fortune Rabbit",
+        "game_code": 1543462
+      },
+      {
+        "name": "Cash Mania",
+        "game_code": 1682240
+      },
+      {
+        "name": "Fortune Dragon",
+        "game_code": 1695365
+      },
+      {
+        "name": "Chicky Run",
+        "game_code": 1738001
+      },
+      {
+        "name": "Fortune Snake",
+        "game_code": 1879752
+      },
+      {
+        "name": "Wild Ape",
+        "game_code": 1508783
+      },
+      {
+        "name": "Futebol Fever",
+        "game_code": 1778752
+      },
+      {
+        "name": "Mr.Treasure's Fortune",
+        "game_code": 1799745
+      },
+      {
+        "name": "Doomsday Rampage",
+        "game_code": 1827457
+      },
+      {
+        "name": "Galaxy Miner",
+        "game_code": 1918451
+      },
+      {
+        "name": "Dragon's Treasure Quest",
+        "game_code": 1897678
+      },
+      {
+        "name": "Grimms' Bounty: Hansel & Gretel",
+        "game_code": 1903012
+      },
+      {
+        "name": "Diner Frenzy Soins",
+        "game_code": 1935269
+      },
+      {
+        "name": "Kraken Gold Rush",
+        "game_code": 1929177
+      },
+      {
+        "name": "Majestic Empire",
+        "game_code": 1971587
+      },
+      {
+        "name": "Pharaoh Royals",
+        "game_code": 1964781
+      },
+      {
+        "name": "Dead Man's Riches",
+        "game_code": 1865521
+      },
+      {
+        "name": "Skylight wonders",
+        "game_code": 2012025
+      },
+      {
+        "name": "Alibaba's Cave of Fortune",
+        "game_code": 1940257
+      },
+      {
+        "name": "Knockout Riches",
+        "game_code": 1881268
+      },
+      {
+        "name": "Shaolin Soccer",
+        "game_code": 67
+      },
+      {
+        "name": "FortuneHorse",
+        "game_code": 2100928
+      },
+      {
+        "name": "Caishen Wins",
+        "game_code": 71
+      }
+    ],
+    "zy": [
+      {
+        "name": "Wheel",
+        "game_code": "wheel"
+      },
+      {
+        "name": "LuckTurnTable",
+        "game_code": "luck-turn-table"
+      },
+      {
+        "name": "Guagua",
+        "game_code": "guagua"
+      }
+    ],
+    "wg": [
+      {
+        "name": "Fishing Master",
+        "game_code": 3022
+      },
+      {
+        "name": "Festival of the\r\nSaints",
+        "game_code": 3018
+      },
+      {
+        "name": "Leopard Of Gold",
+        "game_code": 3010
+      },
+      {
+        "name": "Samba Dance",
+        "game_code": 3016
+      },
+      {
+        "name": "Dragon'sTreasure",
+        "game_code": 3009
+      },
+      {
+        "name": "Mais fortuna eriqueza",
+        "game_code": 3005
+      },
+      {
+        "name": "Caça ao tesouro em série",
+        "game_code": 3003
+      },
+      {
+        "name": "Fortune Rabbit",
+        "game_code": 3035
+      },
+      {
+        "name": "Dragon'sTreasure 2",
+        "game_code": 3028
+      },
+      {
+        "name": "Fortune Ox",
+        "game_code": 3033
+      },
+      {
+        "name": "Fortune Snake",
+        "game_code": 3038
+      },
+      {
+        "name": "Fortune Tiger",
+        "game_code": 3031
+      },
+      {
+        "name": "ForuneToucan",
+        "game_code": 3008
+      },
+      {
+        "name": "Mahjong Ways 2",
+        "game_code": 3032
+      },
+      {
+        "name": "Mahjong Way",
+        "game_code": 3029
+      },
+      {
+        "name": "Lucky Dog",
+        "game_code": 3013
+      },
+      {
+        "name": "Treasure Dragon",
+        "game_code": 3023
+      },
+      {
+        "name": "Treasure Marmosets",
+        "game_code": 3015
+      },
+      {
+        "name": "BlackMythWukong",
+        "game_code": 3025
+      },
+      {
+        "name": "Mr Turtle",
+        "game_code": 3011
+      },
+      {
+        "name": "FortuneMouse",
+        "game_code": 3042
+      },
+      {
+        "name": "FortuneGems",
+        "game_code": 3051
+      },
+      {
+        "name": "Super maquina de frutas",
+        "game_code": 3001
+      },
+      {
+        "name": "AnimalKingdom",
+        "game_code": 3037
+      },
+      {
+        "name": "Wild Bounty Showdown",
+        "game_code": 3020
+      },
+      {
+        "name": "Super Ace",
+        "game_code": 3040
+      },
+      {
+        "name": "Treasure Bowl",
+        "game_code": 3019
+      },
+      {
+        "name": "DragonHatch",
+        "game_code": 3027
+      },
+      {
+        "name": "Fortune Rabbit 2",
+        "game_code": 3049
+      },
+      {
+        "name": "Festadosdoces",
+        "game_code": 3004
+      },
+      {
+        "name": "SuperFruitsSlot2",
+        "game_code": 3030
+      },
+      {
+        "name": "Dragonvs Triger",
+        "game_code": 3014
+      },
+      {
+        "name": "Crazy777",
+        "game_code": 3026
+      },
+      {
+        "name": "WorldCup",
+        "game_code": 3012
+      },
+      {
+        "name": "Fortune Horse",
+        "game_code": 3060
+      }
+    ],
+    "cp": [
+      {
+        "name": "Fortune Panda",
+        "game_code": "2_1700022"
+      },
+      {
+        "name": "Crazy Halloween",
+        "game_code": "2_1700026"
+      },
+      {
+        "name": "Lucky Cat",
+        "game_code": "1_1"
+      },
+      {
+        "name": "Magic Scroll",
+        "game_code": "2_1700051"
+      },
+      {
+        "name": "Sunshine Coast",
+        "game_code": "2_1700065"
+      },
+      {
+        "name": "Halloween Meow",
+        "game_code": "2_1700064"
+      },
+      {
+        "name": "CrazyBirds",
+        "game_code": "1_60"
+      },
+      {
+        "name": "luckywheel",
+        "game_code": "1_43"
+      },
+      {
+        "name": "Magic Scroll2",
+        "game_code": "2_1700074"
+      },
+      {
+        "name": "Freedom Day",
+        "game_code": "2_1700067"
+      },
+      {
+        "name": "Edm Mania",
+        "game_code": "2_1700053"
+      }
+    ],
+    "kess": [
+      {
+        "name": "Fruit777",
+        "game_code": "wf-slots-one"
+      },
+      {
+        "name": "Premier League",
+        "game_code": "wf-premier-league"
+      },
+      {
+        "name": "Ultra Wheel",
+        "game_code": "wf-ultra-wheel"
+      },
+      {
+        "name": "Orchard Spin",
+        "game_code": "orchard-spin"
+      },
+      {
+        "name": "Diamond Rush",
+        "game_code": "diamond-rush"
+      },
+      {
+        "name": "Vegas Cash",
+        "game_code": "vegas-cash"
+      }
+    ],
+    "ambs": [
+      {
+        "name": "Clash of War",
+        "game_code": "CLASHOFWARS"
+      }
+    ],
+    "pp": [
+      {
+        "name": "Lucky Tiger",
+        "game_code": "vs5luckytigly"
+      },
+      {
+        "name": "tigre sortudo",
+        "game_code": "vs5luckytig"
+      },
+      {
+        "name": "Big Bass Splash",
+        "game_code": "vs10txbigbass"
+      },
+      {
+        "name": "Big Bass Bonanza",
+        "game_code": "vs10bbbonanza"
+      }
+    ],
+    "uu": [
+      {
+        "name": "FortuneTiger",
+        "game_code": "fortune-tiger"
+      },
+      {
+        "name": "Fortune snake",
+        "game_code": "fortune-snake"
+      },
+      {
+        "name": "Fortune Horse",
+        "game_code": "fortune-horse"
+      }
+    ]
+  },
+  "blockchain": {
+    "jdb": [
+      {
+        "name": "Aviator",
+        "game_code": "aviator"
+      }
+    ],
+    "zy": [
+      {
+        "name": "Tower",
+        "game_code": "tower"
+      },
+      {
+        "name": "ChickenRoad",
+        "game_code": "chicken-road"
+      },
+      {
+        "name": "Cash Subway",
+        "game_code": "cash-subway"
+      },
+      {
+        "name": "Helix Milionario",
+        "game_code": "helix-milionario"
+      }
+    ],
+    "wg": [
+      {
+        "name": "Aviator",
+        "game_code": 5018
+      },
+      {
+        "name": "Crash",
+        "game_code": 5001
+      }
+    ],
+    "kess": [
+      {
+        "name": "Plinko",
+        "game_code": "kess-plinko"
+      }
+    ],
+    "uu": [
+      {
+        "name": "DiceClash",
+        "game_code": "dice-clash"
+      }
+    ]
+  }
+}

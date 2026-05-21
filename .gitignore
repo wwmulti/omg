@@ -1,0 +1,10 @@
+node_modules
+dist
+*.local
+.lingma/
+.env.development
+.env.production
+
+# 后端服务器
+server/.env
+server/node_modules
