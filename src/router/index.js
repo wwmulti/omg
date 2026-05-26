@@ -10,11 +10,6 @@ const routes = [
     path: '/category/:id',
     name: 'Category',
     component: () => import('@/views/Category.vue')
-  },
-  {
-    path: '/cj9txr9OZfriMEkA',
-    name: 'Upload',
-    component: () => import('@/views/Upload.vue')
   }
 ]
 

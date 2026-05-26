@@ -1,4 +1,4 @@
-import { post } from '@/utils/request'
+import { post, get } from '@/utils/request'
 import { getBrowserUUID } from '@/utils/browser_uuid'
 
 /**
@@ -18,10 +18,10 @@ export async function CreateUser() {
   
   try {
     // 发送到后端代理服务器
-    const response = await post('/api/web/user_session', data)
+    const response = await post('/api/game/createUserSession', data)
     
-    if (response.code !== 0) {
-      throw new Error(response.message || '创建用户失败')
+    if (response.code !== 200) {
+      throw new Error(response.msg || '创建用户失败')
     }
     
     // 保存获取到的用户信息和过期时间（1天）
@@ -107,16 +107,74 @@ export async function getGameUrl(gameCode, language, platformType) {
     }
     
     // 发送到后端代理服务器
-    const response = await post('/api/web/game_url', data)
+    const response = await post('/api/game/getGameUrl', data)
     
-    if (response.code !== 0) {
-      throw new Error(response.message || '获取游戏链接失败')
+    if (response.code !== 200) {
+      throw new Error(response.msg || '获取游戏链接失败')
     }
     
     // 返回游戏URL
     return response.data.url
   } catch (error) {
     console.error('获取游戏URL失败:', error)
+    throw error
+  }
+}
+
+/**
+ * 设置用户RTP
+ * @param {number} rtp - RTP值（0-150）
+ * @returns {Promise<Object>} 设置结果
+ */
+export async function setUserRtp(rtp) {
+  try {
+    const userInfo = await getUserInfo()
+    
+    if (!userInfo || !userInfo.user_id) {
+      throw new Error('用户初始化失败')
+    }
+
+    const uuidMd5 = localStorage.getItem('browser_uuid_md5')
+    if (!uuidMd5) {
+      throw new Error('浏览器UUID初始化失败')
+    }
+    
+    const data = {
+      rtp: Number(rtp),
+      user_id: uuidMd5
+    }
+    
+    const response = await post('/api/game/setUserRtp', data)
+    
+    if (response.code !== 200) {
+      throw new Error(response.msg || '设置RTP失败')
+    }
+    
+    userInfo.rtp = response.data.rtp
+    localStorage.setItem('user_info', JSON.stringify(userInfo))
+    
+    return response.data
+  } catch (error) {
+    console.error('设置RTP失败:', error)
+    throw error
+  }
+}
+
+/**
+ * 获取所有游戏数据
+ * @returns {Promise<Object>} 游戏数据
+ */
+export async function getAllGames() {
+  try {
+    const response = await get('/api/game/getAllGames', {})
+    
+    if (response.code !== 200) {
+      throw new Error(response.msg || '获取游戏数据失败')
+    }
+    
+    return response.data
+  } catch (error) {
+    console.error('获取游戏数据失败:', error)
     throw error
   }
 }
@@ -136,5 +194,7 @@ export default {
   CreateUser,
   getUserInfo,
   getGameUrl,
+  setUserRtp,
+  getAllGames,
   clearUserInfo
 }

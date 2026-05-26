@@ -7,12 +7,20 @@
         <slot />
       </main>
     </div>
+    <CustomerService
+      :link="categoryStore.customerServiceLink"
+      icon="/customer-service.png"
+    />
   </div>
 </template>
 
 <script setup>
 import AppHeader from '@/components/common/AppHeader.vue'
 import AppSidebar from '@/components/common/AppSidebar.vue'
+import CustomerService from '@/components/common/CustomerService.vue'
+import { useCategoryStore } from '@/stores/category'
+
+const categoryStore = useCategoryStore()
 </script>
 
 <style scoped lang="scss">

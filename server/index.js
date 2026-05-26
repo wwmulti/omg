@@ -150,6 +150,59 @@ app.post('/api/web/game_url', async (req, res) => {
   }
 });
 
+/**
+ * 设置用户RTP接口
+ * POST /api/web/set_user_rtp
+ */
+app.post('/api/web/set_user_rtp', async (req, res) => {
+  try {
+    const { rtp, user_id } = req.body;
+
+    if (!user_id) {
+      return res.status(400).json({
+        code: -1,
+        message: '缺少必要参数: user_id'
+      });
+    }
+
+    // 验证RTP范围
+    if (rtp > 300) {
+      return res.status(400).json({
+        code: -1,
+        message: 'RTP不能大于300'
+      });
+    }
+
+    const timestamp = Math.floor(Date.now() / 1000);
+    const data = {
+      operator_token: OPERATOR_TOKEN,
+      rtp: Number(rtp),
+      ts: timestamp,
+      user_id: user_id,
+      key: SECRET
+    };
+
+    // 生成签名
+    const signParams = new URLSearchParams(data).toString();
+    data.sign = md5(signParams);
+
+    // 删除key字段
+    delete data.key;
+
+    // 请求第三方API
+    const response = await apiClient.post('/api/web/set_user_rtp', data);
+
+    // 返回响应
+    res.json(response.data);
+  } catch (error) {
+    console.error('设置用户RTP失败:', error.message);
+    res.status(500).json({
+      code: -1,
+      message: error.response?.data?.message || '设置用户RTP失败'
+    });
+  }
+});
+
 // 健康检查接口
 app.get('/health', (req, res) => {
   res.json({ status: 'ok', timestamp: new Date().toISOString() });
